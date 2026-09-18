@@ -208,7 +208,18 @@ img {
   margin: 0 auto;
 }
 
+.studio__track {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 8px;
+}
+
 .studio__card {
+  flex: 0 0 min(1100px, 92vw);
+  scroll-snap-align: start;
   background: var(--color-card);
   border-radius: 11px;
   display: flex;
@@ -216,6 +227,15 @@ img {
   align-items: stretch;
   overflow: hidden;
   gap: 40px;
+}
+
+.studio__card--dark {
+  background: #363b30;
+  color: #ffffff;
+}
+
+.studio__card--dark .studio__list li {
+  border-bottom-color: #ffffff;
 }
 
 .studio__content {
