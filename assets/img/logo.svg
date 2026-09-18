@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 175" width="300" height="175">
-  <path d="M 40 90 L 90 45 L 140 90 L 140 90 L 128 90 L 128 130 L 52 130 L 52 90 Z"
-        fill="none" stroke="#ffffff" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
-  <text x="150" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="#ffffff" text-anchor="middle">Mô Dulo</text>
-  <text x="150" y="145" font-family="'Lato', Arial, sans-serif" font-size="14" letter-spacing="0.5" fill="#ffffff" text-anchor="middle">Module d'habitation compact</text>
-</svg>
