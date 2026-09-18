@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1350" width="1440" height="1350">
+  <rect width="1440" height="1350" fill="#7c9473"/>
+  <rect x="1" y="1" width="1438" height="1348" fill="none" stroke="#5b6f52" stroke-width="2"/>
+  <text x="720" y="665" font-family="sans-serif" font-size="34" fill="#f5f5f0" text-anchor="middle">Photo hero — remplacer ce fichier</text>
+  <text x="720" y="710" font-family="sans-serif" font-size="22" fill="#e4e4dc" text-anchor="middle">assets/img/hero.svg — 1440×1350 (node Figma 1:14)</text>
+</svg>
