@@ -28,11 +28,14 @@ puis ouvrir http://localhost:8000
 
 ## Images
 
-Les photos de la page d'accueil (`hero.jpg`, `landscape-band.jpg`, `studio-illustration.jpg`,
-`wood-texture.jpg`, `window-photo.jpg`, `logo-icon.png`) proviennent des exports de la maquette Figma.
+La quasi-totalité des visuels proviennent maintenant des exports de la maquette Figma
+(Home, Notre approche, Votre modulo Particuliers/Pro).
 
-Toutes les autres images (`assets/img/approche-*.svg`, `particulier-*.svg`, `pro-*.svg`) sont
-des **placeholders** en attendant les exports Figma correspondants. Pour les remplacer :
-exporte les visuels depuis Figma (sélection multiple + export PNG 2x), puis renomme/dépose
-les fichiers dans `assets/img/` en gardant les mêmes noms (ou mets à jour les balises `<img>`
-si tu préfères d'autres noms).
+Il reste quelques **placeholders** (fichiers `.svg` générés) en attendant leurs exports :
+- `assets/img/approche-hero.svg`
+- `assets/img/approche-gallery-3.svg`, `approche-gallery-4.svg`, `approche-gallery-5.svg`
+- `assets/img/approche-design.svg`
+
+Pour les remplacer : exporte les visuels depuis Figma (sélection multiple + export PNG 2x),
+puis dépose les fichiers dans `assets/img/` en gardant les mêmes noms (ou mets à jour les
+balises `<img>` correspondantes si tu préfères d'autres noms).
