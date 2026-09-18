@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 400" width="1440" height="400">
-  <rect width="1440" height="400" fill="#8aa17c"/>
-  <rect x="1" y="1" width="1438" height="398" fill="none" stroke="#657555" stroke-width="2"/>
-  <text x="720" y="190" font-family="sans-serif" font-size="28" fill="#f5f5f0" text-anchor="middle">Photo paysage — remplacer ce fichier</text>
-  <text x="720" y="225" font-family="sans-serif" font-size="20" fill="#e4e4dc" text-anchor="middle">assets/img/landscape-band.svg — 1440×400 (node Figma 1:89)</text>
-</svg>

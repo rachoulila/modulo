@@ -12,18 +12,16 @@ python3 -m http.server 8000
 
 puis ouvrir http://localhost:8000
 
-## Images à remplacer
+## Images
 
-Le téléchargement des visuels depuis Figma n'était pas possible depuis cet environnement.
-Les fichiers suivants dans `assets/img/` sont des **placeholders** à remplacer par les vrais
-visuels (mêmes dimensions, même nom de fichier) :
+Toutes les photos/illustrations proviennent des exports de la maquette Figma :
 
-| Fichier | Dimensions | Contenu attendu | Node Figma |
-|---|---|---|---|
-| `hero.svg` | 1440×1350 | Photo du repas en extérieur devant le Mô Dulo | 1:14 |
-| `landscape-band.svg` | 1440×400 | Photo du Mô Dulo dans un paysage | 1:89 |
-| `studio-illustration.svg` | 885×792 | Illustration en coupe du Mô Dulo Studio | 1:68 |
-| `wood-texture.svg` | 668×858 | Photo du bardage bois | 1:76 |
-| `window-photo.svg` | 668×858 | Photo de la baie vitrée | 1:78 |
+| Fichier | Contenu | Node Figma |
+|---|---|---|
+| `hero.jpg` | Photo du repas en extérieur devant le Mô Dulo | 1:14 |
+| `landscape-band.jpg` | Photo du Mô Dulo dans un paysage | 1:89 |
+| `studio-illustration.jpg` | Illustration en coupe du Mô Dulo Studio (recadrée pour retirer le texte incrusté dans l'export) | 1:68 |
+| `wood-texture.jpg` | Photo du bardage bois | 1:76 |
+| `window-photo.jpg` | Photo de la baie vitrée | 1:78 |
 
-`logo.svg` est le vrai logo (recréé en SVG, pas un placeholder).
+`logo.svg` est le vrai logo, recréé en SVG.

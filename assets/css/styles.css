@@ -28,7 +28,7 @@ img {
 .hero {
   position: relative;
   min-height: 92vh;
-  background: url('../img/hero.svg') center / cover no-repeat;
+  background: url('../img/hero.jpg') center / cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -132,6 +132,12 @@ img {
 .landscape-band {
   width: 100%;
   line-height: 0;
+}
+
+.landscape-band img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 /* Studio */
