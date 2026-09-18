@@ -1,6 +1,20 @@
-# Mô Dulo — page d'accueil
+# Mô Dulo — site vitrine
 
-Site statique (HTML / CSS / JS) implémentant la page "Home" de la maquette Figma.
+Site statique (HTML / CSS / JS) implémentant la maquette Figma Mô Dulo.
+
+## Pages
+
+| Fichier | Contenu |
+|---|---|
+| `index.html` | Accueil |
+| `notre-approche.html` | La démarche / le concept Mô Dulo |
+| `votre-modulo.html` | Hub de choix Particuliers / Professionnels |
+| `votre-modulo-particulier.html` | 3 réalisations : Studio, Burô, Duo |
+| `votre-modulo-pro.html` | 2 réalisations : Studio Hôtel, Studio Hôtel 2+2 |
+
+Le fichier Figma contient aussi `/page`, `/page-2`, `/about-me`, `/votre-modulo-particulier-2`
+et `/votre-modulo-pro-2` : ce sont des brouillons vides ou des doublons sans texte (juste des
+rectangles image), donc ils n'ont pas été repris ici.
 
 ## Lancer le site
 
@@ -14,14 +28,11 @@ puis ouvrir http://localhost:8000
 
 ## Images
 
-Toutes les photos/illustrations proviennent des exports de la maquette Figma :
+Les photos de la page d'accueil (`hero.jpg`, `landscape-band.jpg`, `studio-illustration.jpg`,
+`wood-texture.jpg`, `window-photo.jpg`, `logo-icon.png`) proviennent des exports de la maquette Figma.
 
-| Fichier | Contenu | Node Figma |
-|---|---|---|
-| `hero.jpg` | Photo du repas en extérieur devant le Mô Dulo | 1:14 |
-| `landscape-band.jpg` | Photo du Mô Dulo dans un paysage | 1:89 |
-| `studio-illustration.jpg` | Illustration en coupe du Mô Dulo Studio (recadrée pour retirer le texte incrusté dans l'export) | 1:68 |
-| `wood-texture.jpg` | Photo du bardage bois | 1:76 |
-| `window-photo.jpg` | Photo de la baie vitrée | 1:78 |
-
-`logo.svg` est le vrai logo, recréé en SVG.
+Toutes les autres images (`assets/img/approche-*.svg`, `particulier-*.svg`, `pro-*.svg`) sont
+des **placeholders** en attendant les exports Figma correspondants. Pour les remplacer :
+exporte les visuels depuis Figma (sélection multiple + export PNG 2x), puis renomme/dépose
+les fichiers dans `assets/img/` en gardant les mêmes noms (ou mets à jour les balises `<img>`
+si tu préfères d'autres noms).

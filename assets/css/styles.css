@@ -311,6 +311,268 @@ img {
   opacity: 0.9;
 }
 
+/* Plain page header (inner pages without a hero photo) */
+
+.page-header {
+  padding: 32px 40px;
+  background: var(--color-bg);
+}
+
+.page-header .nav__link {
+  color: var(--color-text);
+}
+
+.page-title {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px 40px 0;
+  font-size: clamp(28px, 3.5vw, 44px);
+  font-weight: 900;
+}
+
+/* Two-column text + media block, reused across inner pages */
+
+.two-col {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.two-col--reverse {
+  flex-direction: row-reverse;
+}
+
+.two-col__text {
+  flex: 1 1 420px;
+}
+
+.two-col__text h2 {
+  font-size: clamp(24px, 3vw, 34px);
+  font-weight: 800;
+  margin: 0 0 20px;
+}
+
+.two-col__text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--color-muted);
+  margin: 0;
+}
+
+.two-col__media {
+  flex: 1 1 380px;
+  min-width: 0;
+}
+
+.two-col__media img {
+  width: 100%;
+  border-radius: 11px;
+}
+
+/* Statement banner */
+
+.statement {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 40px 60px;
+  font-size: clamp(22px, 2.6vw, 30px);
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+/* Image grid (flexible number of tiles) */
+
+.image-grid {
+  max-width: 1440px;
+  margin: 0 auto 60px;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.image-grid--tight img {
+  border-radius: 0;
+}
+
+/* Info cards (3-up) */
+
+.info-cards {
+  max-width: 1440px;
+  margin: 0 auto 80px;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.info-card {
+  background: var(--color-card);
+  border-radius: 11px;
+  padding: 28px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-muted);
+}
+
+/* Case studies (Votre modulo particulier / pro) */
+
+.case-study {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  border-top: 1px solid #ddd6cd;
+}
+
+.case-study:first-of-type {
+  border-top: none;
+}
+
+.case-study__title {
+  font-size: clamp(28px, 3.5vw, 40px);
+  font-weight: 900;
+  margin: 0 0 32px;
+}
+
+.case-study__intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 32px;
+}
+
+.case-study__list {
+  flex: 1 1 320px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  line-height: 1.9;
+  color: var(--color-muted);
+}
+
+.case-study__media {
+  flex: 1 1 420px;
+  min-width: 0;
+}
+
+.case-study__media img {
+  width: 100%;
+  border-radius: 11px;
+}
+
+.case-study__summary {
+  font-size: 19px;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 0 24px;
+}
+
+.case-study__story {
+  font-size: 17px;
+  line-height: 1.7;
+  color: var(--color-muted);
+  max-width: 900px;
+  margin: 0 0 12px;
+}
+
+.case-study__location {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 0 32px;
+}
+
+.case-study__band {
+  margin: 0 0 40px;
+}
+
+.case-study__band img {
+  width: 100%;
+  border-radius: 11px;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+}
+
+.specs-grid h4 {
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 10px;
+}
+
+.specs-grid p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--color-muted);
+  margin: 0;
+}
+
+/* Hub page (Votre modulo) */
+
+.hub-cards {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+}
+
+.hub-card {
+  display: block;
+  text-decoration: none;
+  color: var(--color-text);
+  background: var(--color-card);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: transform 0.15s ease;
+}
+
+.hub-card:hover {
+  transform: translateY(-4px);
+}
+
+.hub-card img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.hub-card__body {
+  padding: 28px;
+}
+
+.hub-card__body h2 {
+  margin: 0 0 10px;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.hub-card__body p {
+  margin: 0;
+  font-size: 16px;
+  color: var(--color-muted);
+  line-height: 1.5;
+}
+
 @media (max-width: 700px) {
   .gallery,
   .features {
@@ -323,5 +585,9 @@ img {
 
   .studio__content {
     padding: 40px 28px;
+  }
+
+  .two-col--reverse {
+    flex-direction: column;
   }
 }
